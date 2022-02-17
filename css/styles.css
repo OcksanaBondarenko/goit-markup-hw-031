@@ -93,8 +93,6 @@ address {
   margin-bottom: 50px;
 }
 
-
-
 /* header */
 
 .header {
@@ -168,7 +166,7 @@ address {
   background-color: var(--secondary-primary-text-color-theme-dark);
 }
 
-.hero-container {
+.hero-section {
   padding-top: 200px;
   padding-bottom: 210px;
 }
@@ -224,9 +222,14 @@ address {
 }
 
 /* about-us */
+.about-us {
+  padding-bottom: 94px;
+}
+
 .about-us-list {
   display: flex;
   justify-content: space-between;
+  pa
 }
 
 /* team */
@@ -264,9 +267,16 @@ address {
 }
 
 .team-list-item {
-  flex-basis: calc((100%-150px)/5);
+  flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-top: 30px;
+}
+
+.team-list-caption {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-width: 1px;
+  border-color: #000000;
 }
 
 /* footer */
@@ -287,16 +297,18 @@ address {
 }
 
 .address-contact-maps {
+  display: block;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   /* identical to box height, or 171% */
   letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-dark);
-  margin-bottom: 9px;
+  margin-bottom: 9px
 }
 
 .address-contact-mail {
+  display: block;
   font-family: inherit;
   font-weight: normal;
   font-size: 14px;
@@ -304,7 +316,7 @@ address {
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 9px;
+  margin-bottom: 9px
 }
 
 .address-contact-number {
@@ -316,7 +328,6 @@ address {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 
 /* portfolio */
 
@@ -335,6 +346,7 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-light);
+  padding: 6px 22px;
 }
 
 .page-nav-button:hover,
@@ -364,8 +376,7 @@ address {
 .page-nav-container {
   display: flex;
   align-items: center;
-  padding-top: 5px;
-  padding-bottom: 50px;
+  margin-bottom: 56px;
 }
 
 .page-nav-list {
@@ -387,7 +398,13 @@ address {
 }
 
 .examples-list-item {
-  flex-basis: calc((100%-120px)/4);
+  flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
+}
+
+.examples-list-caption {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px #EEEEEE;
 }
