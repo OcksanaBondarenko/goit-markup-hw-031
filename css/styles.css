@@ -98,6 +98,9 @@ address {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border-bottom: 1px solid #EEEEEE;
 }
 
 .header-container {
@@ -275,8 +278,13 @@ address {
 .team-list-caption {
   padding-top: 30px;
   padding-bottom: 30px;
-  border-width: 1px;
-  border-color: #000000;
+  box-sizing: border-box;
+  border: 1px solid #EEEEEE;
+  background: #FFFFFF;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* footer */
@@ -362,6 +370,7 @@ address {
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: var(--primary-text-color-theme-light);
+  padding-left: 20px;
 }
 
 .examples-text {
@@ -371,6 +380,7 @@ address {
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
   color: var(--secondary-primary-text-color-theme-light);
+  padding-left: 20px;
 }
 
 .page-nav-container {
@@ -406,5 +416,7 @@ address {
 .examples-list-caption {
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 1px #EEEEEE;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
 }
